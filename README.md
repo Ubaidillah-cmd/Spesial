@@ -1,86 +1,176 @@
-# ❤️ Happy Valentine L
+# 🎂 Happy Birthday 🎉
 
-A beautiful, interactive, and romantic web experience designed as a special Valentine's Day gift. This project features a multi-step interactive flow that leads to a stunning 3D Dome Gallery of memories.
+A beautiful, interactive, and memorable web experience crafted as a special **birthday gift** 🎁
+This project delivers a multi-step interactive journey ending with a stunning **3D Dome Gallery of memories**.
+
+---
 
 ## ✨ Features
 
-- **Love Mode Toggle**: A premium glassmorphic switch to set the mood.
-- **Interactive Tic-Tac-Toe**: A "rigged" game where winning reveals a heart-shaped surprise.
-- **Love Meter**: An accurate SVG-based gauge that fills up to 100%.
-- **Typewriter Message**: A classic typewriter animation for a personalized Valentine's greeting.
-- **3D Dome Gallery**: A fully interactive 3D sphere gallery that displays your favorite photos.
-- **Background Music**: Autoplaying and looping romantic music (`pretty.mp3`).
-- **Premium UI**: Crafted with Tailwind CSS, Framer Motion, and Playfair Display typography.
+* 🎉 **Birthday Mode Toggle**
+  Turn on the celebration vibes with a premium glassmorphic switch.
+
+* 🎮 **Interactive Mini Game**
+  A fun little game… and when you win, a surprise awaits 🎁
+
+* 📊 **Happiness Meter**
+  A smooth animated gauge that fills up to 100% happiness 💖
+
+* ⌨️ **Typewriter Message**
+  Personalized birthday wishes with elegant typing animation.
+
+* 🌐 **3D Memory Gallery**
+  Interactive 3D rotating gallery to showcase your best moments.
+
+* 🎵 **Background Music**
+  Autoplay birthday music (`pretty.mp3`) for full vibes 🎶
+
+* 🎨 **Premium UI Design**
+  Built with modern aesthetic: glassmorphism, smooth animation, elegant fonts.
+
+---
 
 ## 🚀 Getting Started
 
-Follow these steps to get a copy of the project up and running on your local machine.
+Follow these steps to run this project locally.
 
-### Prerequisites
+### 📌 Prerequisites
 
-- Node.js (v18 or higher)
-- npm or yarn
+* Node.js (v18 or higher)
+* npm / yarn
 
-### Installation
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/DzarelDeveloper/Valentine-Days.git
-   cd Valentine-Days
-   ```
+### ⚙️ Installation
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+1. **Clone repository**
 
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
+```bash id="a1b2c3"
+git clone https://github.com/Ubaidillah-cmd/Spesial.git
+cd birthday-surprise
+```
 
-4. **Open in browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
+2. **Install dependencies**
+
+```bash id="d4e5f6"
+npm install
+```
+
+3. **Run project**
+
+```bash id="g7h8i9"
+npm run dev
+```
+
+4. **Open browser**
+
+```
+http://localhost:3000
+```
+
+---
 
 ## 📸 Customization
 
-### Changing Photos
-Put your images in the `public/` folder and name them `1.jpeg`, `2.jpeg`, up to `15.jpeg`. If you have more or fewer photos, update the `userImages` array in `app/page.tsx`.
+### 🖼️ Change Photos
 
-### Changing Music
-Replace the `public/pretty.mp3` file with your preferred romantic track (keep the filename or update it in `app/page.tsx`).
+* Masukkan foto ke folder `public/`
+* Rename: `1.jpeg`, `2.jpeg`, dst
+* Edit di:
 
-### Changing the Message
-You can edit the typewriter text in `components/InteractionFlow.tsx` by searching for the `TypewriterStep` component.
+```
+app/page.tsx → userImages
+```
 
-## 🌐 Hosting & Deployment
+---
 
-The easiest way to deploy this project is using the **Vercel Platform**.
+### 🎵 Change Music
 
-### Deploy to Vercel (Recommended)
-1. Push your code to a GitHub, GitLab, or Bitbucket repository.
-2. Go to [Vercel](https://vercel.com/) and create a new project.
-3. Import your repository.
-4. Vercel will automatically detect Next.js and deploy your project.
+* Replace file:
 
-### Manual Build
-To create an optimized production build:
-```bash
+```
+public/Birthday.mp3
+```
+
+* Bisa pakai lagu ulang tahun 🎂
+
+---
+
+### 💌 Change Message
+
+Edit di:
+
+```
+components/InteractionFlow.tsx
+```
+
+Cari:
+
+
+```ts id="msg2"
+const text = "Happy Birthday 🎂🎉";
+```
+
+---
+
+### 🎁 Change Text di Gallery
+
+Edit di:
+
+```
+components/DomeGallery.tsx
+```
+
+Cari:
+
+```ts id="msg3"
+labelLeft.innerText = 'My';
+labelRight.innerText = 'Everything';
+```
+
+## 🌐 Deployment
+
+### 🚀 Deploy ke Vercel
+
+1. Push ke GitHub
+2. Import ke Vercel
+3. Deploy otomatis ✅
+
+---
+
+### 🛠️ Manual Build
+
+```bash id="build1"
 npm run build
 npm run start
 ```
 
-## 🛠️ Tech Stack & Languages
+---
 
-This project is built using modern web technologies to ensure a smooth and premium experience:
+## 🧑‍💻 Tech Stack
 
-- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
-- **Library**: [React 19](https://react.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) (for type-safe and robust code)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (for modern glassmorphic UI)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/) (for fluid and organic transitions)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Fonts**: [Google Fonts (Playfair Display & Geist)](https://fonts.google.com/)
+* ⚡ Next.js 15
+* ⚛️ React 19
+* 🟦 TypeScript
+* 🎨 Tailwind CSS
+* 🎬 Framer Motion
+* 🔣 Lucide Icons
+* ✍️ Google Fonts
 
 ---
-Made with ❤️ by DzarelDeveloper
+
+## 🎂 Notes
+
+Project ini cocok untuk:
+
+* Surprise ulang tahun 🎁
+* Hadiah ke pacar / sahabat 💖
+* Project portofolio UI modern
+
+---
+
+## 🎉 Author
+
+Made with 🎂 by **Ubaidillah**
+
+---
