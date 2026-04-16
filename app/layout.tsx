@@ -18,8 +18,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Birthday Abdur Rahman 🎉",
-  description: "Website kejutan ulang tahun spesial 🎂🎈",
+  title: "Happy Birthday Fika Ayu Safitri",
+  description: "Website kejutan ulang tahun spesial ",
 };
 
 export default function RootLayout({
