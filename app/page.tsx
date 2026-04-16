@@ -26,7 +26,7 @@ export default function Home() {
 
           {/* 🎉 Judul ulang tahun */}
           <h1 className="text-center text-4xl font-bold mt-6 text-purple-700">
-            🎉 Happy Birthday 🎂
+            Fika Ayu Safitri
           </h1>
 
           <DomeGallery
