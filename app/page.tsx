@@ -23,7 +23,6 @@ export default function Home() {
       ) : (
         <>
           <audio src="/birthday.mp3" autoPlay loop className="hidden" />
-
           <DomeGallery
             images={userImages}
             fit={0.8}
@@ -32,7 +31,7 @@ export default function Home() {
             segments={36}
             dragDampening={2}
             grayscale={false}
-            autoRotationSpeed={0.2}
+            autoRotationSpeed={0.1}
           />
         </>
       )}
