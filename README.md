@@ -46,7 +46,7 @@ Follow these steps to run this project locally.
 1. **Clone repository**
 
 ```bash id="a1b2c3"
-git clone https://github.com/Ubaidillah-cmd/Spesial.git
+git clone https://github.com/username/birthday-surprise.git
 cd birthday-surprise
 ```
 
@@ -89,7 +89,7 @@ app/page.tsx → userImages
 * Replace file:
 
 ```
-public/Birthday.mp3
+public/pretty.mp3
 ```
 
 * Bisa pakai lagu ulang tahun 🎂
@@ -106,6 +106,11 @@ components/InteractionFlow.tsx
 
 Cari:
 
+```ts id="msg1"
+const text = "Happy Valentine!!!!";
+```
+
+Ubah jadi:
 
 ```ts id="msg2"
 const text = "Happy Birthday 🎂🎉";
@@ -127,6 +132,15 @@ Cari:
 labelLeft.innerText = 'My';
 labelRight.innerText = 'Everything';
 ```
+
+Ubah jadi:
+
+```ts id="msg4"
+labelLeft.innerText = 'Selamat';
+labelRight.innerText = 'Ulang Tahun 🎉';
+```
+
+---
 
 ## 🌐 Deployment
 
@@ -171,6 +185,6 @@ Project ini cocok untuk:
 
 ## 🎉 Author
 
-Made with 🎂 by **Ubaidillah**
+Made with 🎂 by **Your Name**
 
 ---
