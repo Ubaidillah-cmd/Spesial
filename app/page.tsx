@@ -24,13 +24,6 @@ export default function Home() {
         <>
           <audio src="/birthday.mp3" autoPlay loop className="hidden" />
 
-          {/* 🎉 Judul ulang tahun */}
-          <h1 className="text-center text-4xl font-bold mt-6 text-white">
-            Happy Birthday
-            <br />
-            Fika Ayu Safitri
-          </h1>
-
           <DomeGallery
             images={userImages}
             fit={0.8}
