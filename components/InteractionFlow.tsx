@@ -76,7 +76,7 @@ const LoveModeStep = ({ onComplete }: { onComplete: () => void }) => {
 
                 <div className="flex flex-col items-center space-y-6">
                     <span className={`text-5xl font-playfair transition-colors duration-1000 ${isOn ? 'text-white' : 'text-white/40'}`}>
-                        Love mode
+                        Birthday Mode
                     </span>
 
                     <button
@@ -244,7 +244,7 @@ const TicTacToeStep = ({ onComplete }: { onComplete: () => void }) => {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-4xl font-playfair text-white text-center drop-shadow-lg mt-4"
                     >
-                        Hatiku
+                        Best Player
                     </motion.h2>
                 )}
             </AnimatePresence>
@@ -323,7 +323,7 @@ const LoveMeterStep = ({ onComplete }: { onComplete: () => void }) => {
                     <div className="text-6xl font-black text-white font-mono tracking-tighter">
                         {progress}<span className="text-red-400 text-3xl">%</span>
                     </div>
-                    <span className="text-2xl text-white/60 font-playfair italic mt-2 tracking-widest">Love Intensity</span>
+                    <span className="text-2xl text-white/60 font-playfair italic mt-2 tracking-widest">Birthday Energy</span>
                 </div>
             </div>
 
@@ -340,7 +340,7 @@ const LoveMeterStep = ({ onComplete }: { onComplete: () => void }) => {
 
 // --- Step 4: Typewriter ---
 const TypewriterStep = ({ onComplete }: { onComplete: () => void }) => {
-    const text = "Happy Valentine!!!!";
+    const text = "Happy Birthday Fika Ayu Safitri";
     const [displayedText, setDisplayedText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
 
