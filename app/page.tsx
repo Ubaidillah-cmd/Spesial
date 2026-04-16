@@ -17,7 +17,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="w-screen h-screen bg-gradient-to-br from-yellow-200 via-pink-200 to-purple-300">
+    <main className="w-screen h-screen bg-[#060010]">
       {!showGallery ? (
         <InteractionFlow onFlowComplete={() => setShowGallery(true)} />
       ) : (
@@ -25,7 +25,9 @@ export default function Home() {
           <audio src="/birthday.mp3" autoPlay loop className="hidden" />
 
           {/* 🎉 Judul ulang tahun */}
-          <h1 className="text-center text-4xl font-bold mt-6 text-purple-700">
+          <h1 className="text-center text-4xl font-bold mt-6 text-white">
+            Happy Birthday
+            <br />
             Fika Ayu Safitri
           </h1>
 
