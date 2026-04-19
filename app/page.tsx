@@ -8,12 +8,12 @@ export default function Home() {
   const [showGallery, setShowGallery] = useState(false);
 
   const userImages = [
-    '/1.jpeg','/2.jpeg','/3.jpeg','/4.jpeg','/5.jpeg','/6.jpeg',
-    '/7.jpeg','/8.jpeg','/9.jpeg','/10.jpeg','/11.jpeg','/12.jpeg',
-    '/13.jpeg','/14.jpeg','/15.jpeg','/16.jpeg','/17.jpeg','/18.jpeg',
-    '/19.jpeg','/20.jpeg','/21.jpeg','/22.jpeg','/23.jpeg','/24.jpeg',
-    '/25.jpeg','/26.jpeg','/27.jpeg','/28.jpeg','/29.jpeg','/30.jpeg',
-    '/31.jpeg','/32.jpeg','/33.jpeg','/34.jpeg','/35.jpeg','/36.jpeg'
+    '/foto1.jpg','/foto2.jpg','/foto3.jpg','/foto4.jpg','/foto5.jpg','/foto6.jpg',
+    '/foto7.jpg','/foto8.jpg','/foto9.jpg','/foto10.jpg','/foto11.jpg','/foto12.jpg',
+    '/foto13.jpg','/foto14.jpg','/foto15.jpg','/foto16.jpg','/foto17.jpg','/foto18.jpg',
+    '/foto19.jpg','/foto20.jpg','/foto21.jpg','/foto22.jpg','/foto23.jpg','/foto24.jpg',
+    '/foto25.jpg','/foto26.jpg','/foto27.jpg','/foto28.jpg','/foto29.jpg','/foto30.jpg',
+    '/foto31.jpg','/foto32.jpg','/foto33.jpg','/foto34.jpg','/foto35.jpg','/foto36.jpg'
   ];
 
   return (
